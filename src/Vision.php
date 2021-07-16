@@ -12,7 +12,7 @@ class Vision
 
     public function __construct()
     {
-        $this->client = new GoogleClient;
+        $this->client = new GoogleClient();
     }
 
     public static function make()
@@ -23,6 +23,7 @@ class Vision
     public function fromUrl(string $url)
     {
         $this->image = base64_encode(file_get_contents($url));
+
         return $this;
     }
 

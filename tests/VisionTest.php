@@ -1,8 +1,8 @@
 <?php
+
 namespace GetThingsDone\Vision;
 
 use GetThingsDone\Vision\Tests\TestCase;
-use GetThingsDone\Vision\Vision;
 
 class VisionTest extends TestCase
 {
@@ -16,5 +16,4 @@ class VisionTest extends TestCase
             $data[0]
         );
     }
-
 }

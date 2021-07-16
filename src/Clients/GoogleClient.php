@@ -1,4 +1,5 @@
 <?php
+
 namespace GetThingsDone\Vision\Clients;
 
 use Illuminate\Support\Facades\Http;
@@ -13,14 +14,14 @@ class GoogleClient
                 'requests' => [
                     [
                         'image' => ['content' => $image],
-                        'features'=> [
+                        'features' => [
                             [
-                              'maxResults'=> 10,
-                              'type'=> "FACE_DETECTION"
-                            ]
-                        ]
-                    ]
-                ]
+                              'maxResults' => 10,
+                              'type' => "FACE_DETECTION",
+                            ],
+                        ],
+                    ],
+                ],
             ]
         );
     }

@@ -2,9 +2,9 @@
 
 namespace GetThingsDone\Vision;
 
+use GetThingsDone\Vision\Commands\VisionCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use GetThingsDone\Vision\Commands\VisionCommand;
 
 class VisionServiceProvider extends PackageServiceProvider
 {

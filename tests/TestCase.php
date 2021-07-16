@@ -2,9 +2,9 @@
 
 namespace GetThingsDone\Vision\Tests;
 
+use GetThingsDone\Vision\VisionServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use GetThingsDone\Vision\VisionServiceProvider;
 
 class TestCase extends Orchestra
 {
